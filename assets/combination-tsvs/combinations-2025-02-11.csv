@@ -1,0 +1,21 @@
+Checklist,Extension 1,Extension 2,Existing Combination,Full name,Example
+MigsOrg,HostAssociated,Ancient,MigsOrgHostAssociated,MigsOrgHostAssociatedAncient,Animal mitochondrial genomes
+MigsOrg,HumanAssociated,Ancient,MigsOrgHumanAssociated,MigsOrgHumanAssociatedAncient,Human mitochondrial genomes
+Miuvig,HostAssociated,Ancient,MiuvigHostAssociated,MiuvigHostAssociatedAncient,Animal-derived virus genome
+Miuvig,HumanAssociated,Ancient,MiuvigHumanAssociated,MiuvigHumanAssociatedAncient,Human-derived virus genome
+Mimag,HostAssociated,Ancient,MimagHostAssociated,MimagHostAssociatedAncient,General animal-derived metagenome-(de novo) assembled genome (MAG)
+Mimag,HumanAssociated,Ancient,MimagHumanAssociated,MimagHumanAssociatedAncient,General human-derived metagenome-(de novo) assembled genome (MAG)
+Mimag,HumanOral,Ancient,MimagHumanOral,MimagHumanOralAncient,Human dental calculus-derived metagenome-(de novo) assembled genome (MAG)
+Mimag,HumanGut,Ancient,MimagHumanGut,MimagHumanGutAncient,Human palaeofaeces-derived metagenome-(de novo) assembled genome (MAG)
+Mimag,HumanSkin,Ancient,MimagHumanSkin,MimagHumanSkinAncient,Human mummy skin-derived metagenome-(de novo) assembled genome (MAG)
+Mimag,Sediment,Ancient,MimagSediment,MimagSedimentAncient,Sediment-derived metagenome-(de novo) assembled genome (MAG)
+Mimag,Skin,Ancient,MimagSkin,MimagSkinAncient,Soil-derived metagenome-(de novo) assembled genome (MAG)
+Mims,HostAssociated,Ancient,MimsHostAssociated,MimsHostAssociatedAncient,General skeleton-derived ancient DNA short-read sequences
+Mims,HumanAssociated,Ancient,MimsHumanAssociated,MimsHumanAssociatedAncient,Human skeleton-derived ancient DNA short-read sequences
+Mims,HumanOral,Ancient,MimsHumanOral,MimsHumanOralAncient,Human dental calculus-derived ancient DNA short-read sequences
+Mims,HumanGut,Ancient,MimsHumanGut,MimsHumanGutAncient,Human palaeofaeces-derived ancient DNA short-read sequences
+Mims,HumanSkin,Ancient,MimsHumanSkin,MimsHumanSkinAncient,Human mummy skin-derived ancient DNA short-read sequences
+Mims,Sediment,Ancient,MimsSediment,MimsSedimentAncient,Sediment-derived ancient DNA short-read sequences
+Mims,Soil,Ancient,MimsSoil,MimsSoilAncient,Soil-derived ancient DNA short-read sequences
+Mims,Plant,Ancient,MimsPlant,MimsPlantAncient,Plant-derived ancient DNA short-read sequences
+Mims,Symbiont,Ancient,MimsSymbiont,MimsSymbiontAncient,Parasite-derived ancient DNA short-read sequences
