@@ -1,21 +1,21 @@
-Checklist,Extension 1,Extension 2,Existing Combination,Full name,Example
-MigsOrg,HostAssociated,Ancient,MigsOrgHostAssociated,MigsOrgHostAssociatedAncient,Animal mitochondrial genomes
-MigsOrg,HumanAssociated,Ancient,MigsOrgHumanAssociated,MigsOrgHumanAssociatedAncient,Human mitochondrial genomes
-Miuvig,HostAssociated,Ancient,MiuvigHostAssociated,MiuvigHostAssociatedAncient,Animal-derived virus genome
-Miuvig,HumanAssociated,Ancient,MiuvigHumanAssociated,MiuvigHumanAssociatedAncient,Human-derived virus genome
-Mimag,HostAssociated,Ancient,MimagHostAssociated,MimagHostAssociatedAncient,General animal-derived metagenome-(de novo) assembled genome (MAG)
-Mimag,HumanAssociated,Ancient,MimagHumanAssociated,MimagHumanAssociatedAncient,General human-derived metagenome-(de novo) assembled genome (MAG)
-Mimag,HumanOral,Ancient,MimagHumanOral,MimagHumanOralAncient,Human dental calculus-derived metagenome-(de novo) assembled genome (MAG)
-Mimag,HumanGut,Ancient,MimagHumanGut,MimagHumanGutAncient,Human palaeofaeces-derived metagenome-(de novo) assembled genome (MAG)
-Mimag,HumanSkin,Ancient,MimagHumanSkin,MimagHumanSkinAncient,Human mummy skin-derived metagenome-(de novo) assembled genome (MAG)
-Mimag,Sediment,Ancient,MimagSediment,MimagSedimentAncient,Sediment-derived metagenome-(de novo) assembled genome (MAG)
-Mimag,Skin,Ancient,MimagSkin,MimagSkinAncient,Soil-derived metagenome-(de novo) assembled genome (MAG)
-Mims,HostAssociated,Ancient,MimsHostAssociated,MimsHostAssociatedAncient,General skeleton-derived ancient DNA short-read sequences
-Mims,HumanAssociated,Ancient,MimsHumanAssociated,MimsHumanAssociatedAncient,Human skeleton-derived ancient DNA short-read sequences
-Mims,HumanOral,Ancient,MimsHumanOral,MimsHumanOralAncient,Human dental calculus-derived ancient DNA short-read sequences
-Mims,HumanGut,Ancient,MimsHumanGut,MimsHumanGutAncient,Human palaeofaeces-derived ancient DNA short-read sequences
-Mims,HumanSkin,Ancient,MimsHumanSkin,MimsHumanSkinAncient,Human mummy skin-derived ancient DNA short-read sequences
-Mims,Sediment,Ancient,MimsSediment,MimsSedimentAncient,Sediment-derived ancient DNA short-read sequences
-Mims,Soil,Ancient,MimsSoil,MimsSoilAncient,Soil-derived ancient DNA short-read sequences
-Mims,Plant,Ancient,MimsPlant,MimsPlantAncient,Plant-derived ancient DNA short-read sequences
-Mims,Symbiont,Ancient,MimsSymbiont,MimsSymbiontAncient,Parasite-derived ancient DNA short-read sequences
+Checklist,Checklist URI,Extension 1,Extension 1 URI,Extension 2,Existing Combination,Full name,Example
+MigsOrg,10006,HostAssociated,16002,Ancient,MigsOrgHostAssociated,MigsOrgHostAssociatedAncient,Animal mitochondrial genomes
+MigsOrg,10006,HumanAssociated,16003,Ancient,MigsOrgHumanAssociated,MigsOrgHumanAssociatedAncient,Human mitochondrial genomes
+Miuvig,10012,HostAssociated,16002,Ancient,MiuvigHostAssociated,MiuvigHostAssociatedAncient,Animal-derived virus genome
+Miuvig,10012,HumanAssociated,16003,Ancient,MiuvigHumanAssociated,MiuvigHumanAssociatedAncient,Human-derived virus genome
+Mimag,10011,HostAssociated,16002,Ancient,MimagHostAssociated,MimagHostAssociatedAncient,General animal-derived metagenome-(de novo) assembled genome (MAG)
+Mimag,10011,HumanAssociated,16003,Ancient,MimagHumanAssociated,MimagHumanAssociatedAncient,General human-derived metagenome-(de novo) assembled genome (MAG)
+Mimag,10011,HumanOral,16005,Ancient,MimagHumanOral,MimagHumanOralAncient,Human dental calculus-derived metagenome-(de novo) assembled genome (MAG)
+Mimag,10011,HumanGut,16004,Ancient,MimagHumanGut,MimagHumanGutAncient,Human palaeofaeces-derived metagenome-(de novo) assembled genome (MAG)
+Mimag,10011,HumanSkin,16006,Ancient,MimagHumanSkin,MimagHumanSkinAncient,Human mummy skin-derived metagenome-(de novo) assembled genome (MAG)
+Mimag,10011,Sediment,16011,Ancient,MimagSediment,MimagSedimentAncient,Sediment-derived metagenome-(de novo) assembled genome (MAG)
+Mimag,10011,Soil,16012,Ancient,MimagSoil,MimagSoilAncient,Soil-derived metagenome-(de novo) assembled genome (MAG)
+Mims,10007,HostAssociated,16002,Ancient,MimsHostAssociated,MimsHostAssociatedAncient,General skeleton-derived ancient DNA short-read sequences
+Mims,10007,HumanAssociated,16003,Ancient,MimsHumanAssociated,MimsHumanAssociatedAncient,Human skeleton-derived ancient DNA short-read sequences
+Mims,10007,HumanOral,16005,Ancient,MimsHumanOral,MimsHumanOralAncient,Human dental calculus-derived ancient DNA short-read sequences
+Mims,10007,HumanGut,16004,Ancient,MimsHumanGut,MimsHumanGutAncient,Human palaeofaeces-derived ancient DNA short-read sequences
+Mims,10007,HumanSkin,16006,Ancient,MimsHumanSkin,MimsHumanSkinAncient,Human mummy skin-derived ancient DNA short-read sequences
+Mims,10007,Sediment,16011,Ancient,MimsSediment,MimsSedimentAncient,Sediment-derived ancient DNA short-read sequences
+Mims,10007,Soil,16012,Ancient,MimsSoil,MimsSoilAncient,Soil-derived ancient DNA short-read sequences
+Mims,10007,PlantAssociated,16010,Ancient,MimsPlantAssociated,MimsPlantAssociatedAncient,Plant-derived ancient DNA short-read sequences
+Mims,10007,SymbiontAssociated,16023,Ancient,MimsSymbiontAssociated,MimsSymbiontAssociatedAncient,Parasite-derived ancient DNA short-read sequences

@@ -7,9 +7,9 @@ table=$1
 
 while read line; do
     checklist=$(echo "$line" | cut -d, -f1)
-    checklist_uri=#TODO
-    extension=$(echo "$line" | cut -d, -f2)
-    extension_uri=#TODO
+    checklist_uri=$(echo "$line" | cut -d, -f2)
+    extension=$(echo "$line" | cut -d, -f3)
+    extension_uri=$(echo "$line" | cut -d, -f4)
     checklist_lower=$(echo $checklist | tr '[:upper:]' '[:lower:]')
     extension_lower=$(echo $extension | tr '[:upper:]' '[:lower:]')
     #example=$(echo "$line" | cut -d, -f6)
@@ -35,6 +35,6 @@ while read line; do
   is_a: Ancient
   mixins:
       - ${checklist}${extension}
-  class_uri: MIXS:0010007_0016011_9999903"
+  class_uri: MIXS:${checklist_uri}_${extension_uri}_9999903"
 
 done <$table
