@@ -1,11 +1,18 @@
 #! /usr/bin/env bash
 
-## Requires a comma-separated table with the following format:
+## Author: James Fellows Yates (@jfy133)
+## License: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+## Description: This script generates the MIxS compatible slots, classes, and compliant data slots *combination classes* that can be added to MIxS schemas.
+
+## INPUT: Requires a comma-separated table with the following format:
 ## Checklist	ChecklistURI	Extension 1	CheckList2URI	Extension 2	Existing Combination	Full name	Example
 
-table=$1
+## OUTPUT: Three files:
+## 1. minas-combination-slots.txt: Contains the slots for the combination classes
+## 2. minas-combination-classes.txt: Contains the combination classes
+## 3. minas-combination-compliantdataslots.txt: Contains the slots that will be added to the MixsCompliantData class
 
-## TODO: FIX BUG THAT INCLUDES FIRST LINE -> ALMOST FIXED, CHECK
+table=$1
 
 while read line; do
 
@@ -15,7 +22,6 @@ while read line; do
   extension_uri=$(echo "$line" | cut -d, -f4)
   checklist_lower=$(echo $checklist | tr '[:upper:]' '[:lower:]')
   extension_lower=$(echo $extension | tr '[:upper:]' '[:lower:]')
-  #example=$(echo "$line" | cut -d, -f6)
 
   echo "SLOT #########################"
   echo "${checklist_lower}_${extension_lower}_ancient_data:
