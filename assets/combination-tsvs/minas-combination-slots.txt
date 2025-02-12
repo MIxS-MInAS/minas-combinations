@@ -1,0 +1,200 @@
+migsorg_hostassociated_ancient_data:
+  description: Data that comply with Ancient combined with MigsOrgHostAssociated
+  title: MigsOrgHostAssociatedAncient Data
+  domain: MixsCompliantData
+  slot_uri: MIXS:migsorg_hostassociated_ancient_data
+  multivalued: true
+  range: MigsOrgHostAssociatedAncient
+  inlined: true
+  inlined_as_list: true
+    
+migsorg_humanassociated_ancient_data:
+  description: Data that comply with Ancient combined with MigsOrgHumanAssociated
+  title: MigsOrgHumanAssociatedAncient Data
+  domain: MixsCompliantData
+  slot_uri: MIXS:migsorg_humanassociated_ancient_data
+  multivalued: true
+  range: MigsOrgHumanAssociatedAncient
+  inlined: true
+  inlined_as_list: true
+    
+miuvig_hostassociated_ancient_data:
+  description: Data that comply with Ancient combined with MiuvigHostAssociated
+  title: MiuvigHostAssociatedAncient Data
+  domain: MixsCompliantData
+  slot_uri: MIXS:miuvig_hostassociated_ancient_data
+  multivalued: true
+  range: MiuvigHostAssociatedAncient
+  inlined: true
+  inlined_as_list: true
+    
+miuvig_humanassociated_ancient_data:
+  description: Data that comply with Ancient combined with MiuvigHumanAssociated
+  title: MiuvigHumanAssociatedAncient Data
+  domain: MixsCompliantData
+  slot_uri: MIXS:miuvig_humanassociated_ancient_data
+  multivalued: true
+  range: MiuvigHumanAssociatedAncient
+  inlined: true
+  inlined_as_list: true
+    
+mimag_hostassociated_ancient_data:
+  description: Data that comply with Ancient combined with MimagHostAssociated
+  title: MimagHostAssociatedAncient Data
+  domain: MixsCompliantData
+  slot_uri: MIXS:mimag_hostassociated_ancient_data
+  multivalued: true
+  range: MimagHostAssociatedAncient
+  inlined: true
+  inlined_as_list: true
+    
+mimag_humanassociated_ancient_data:
+  description: Data that comply with Ancient combined with MimagHumanAssociated
+  title: MimagHumanAssociatedAncient Data
+  domain: MixsCompliantData
+  slot_uri: MIXS:mimag_humanassociated_ancient_data
+  multivalued: true
+  range: MimagHumanAssociatedAncient
+  inlined: true
+  inlined_as_list: true
+    
+mimag_humanoral_ancient_data:
+  description: Data that comply with Ancient combined with MimagHumanOral
+  title: MimagHumanOralAncient Data
+  domain: MixsCompliantData
+  slot_uri: MIXS:mimag_humanoral_ancient_data
+  multivalued: true
+  range: MimagHumanOralAncient
+  inlined: true
+  inlined_as_list: true
+    
+mimag_humangut_ancient_data:
+  description: Data that comply with Ancient combined with MimagHumanGut
+  title: MimagHumanGutAncient Data
+  domain: MixsCompliantData
+  slot_uri: MIXS:mimag_humangut_ancient_data
+  multivalued: true
+  range: MimagHumanGutAncient
+  inlined: true
+  inlined_as_list: true
+    
+mimag_humanskin_ancient_data:
+  description: Data that comply with Ancient combined with MimagHumanSkin
+  title: MimagHumanSkinAncient Data
+  domain: MixsCompliantData
+  slot_uri: MIXS:mimag_humanskin_ancient_data
+  multivalued: true
+  range: MimagHumanSkinAncient
+  inlined: true
+  inlined_as_list: true
+    
+mimag_sediment_ancient_data:
+  description: Data that comply with Ancient combined with MimagSediment
+  title: MimagSedimentAncient Data
+  domain: MixsCompliantData
+  slot_uri: MIXS:mimag_sediment_ancient_data
+  multivalued: true
+  range: MimagSedimentAncient
+  inlined: true
+  inlined_as_list: true
+    
+mimag_soil_ancient_data:
+  description: Data that comply with Ancient combined with MimagSoil
+  title: MimagSoilAncient Data
+  domain: MixsCompliantData
+  slot_uri: MIXS:mimag_soil_ancient_data
+  multivalued: true
+  range: MimagSoilAncient
+  inlined: true
+  inlined_as_list: true
+    
+mims_hostassociated_ancient_data:
+  description: Data that comply with Ancient combined with MimsHostAssociated
+  title: MimsHostAssociatedAncient Data
+  domain: MixsCompliantData
+  slot_uri: MIXS:mims_hostassociated_ancient_data
+  multivalued: true
+  range: MimsHostAssociatedAncient
+  inlined: true
+  inlined_as_list: true
+    
+mims_humanassociated_ancient_data:
+  description: Data that comply with Ancient combined with MimsHumanAssociated
+  title: MimsHumanAssociatedAncient Data
+  domain: MixsCompliantData
+  slot_uri: MIXS:mims_humanassociated_ancient_data
+  multivalued: true
+  range: MimsHumanAssociatedAncient
+  inlined: true
+  inlined_as_list: true
+    
+mims_humanoral_ancient_data:
+  description: Data that comply with Ancient combined with MimsHumanOral
+  title: MimsHumanOralAncient Data
+  domain: MixsCompliantData
+  slot_uri: MIXS:mims_humanoral_ancient_data
+  multivalued: true
+  range: MimsHumanOralAncient
+  inlined: true
+  inlined_as_list: true
+    
+mims_humangut_ancient_data:
+  description: Data that comply with Ancient combined with MimsHumanGut
+  title: MimsHumanGutAncient Data
+  domain: MixsCompliantData
+  slot_uri: MIXS:mims_humangut_ancient_data
+  multivalued: true
+  range: MimsHumanGutAncient
+  inlined: true
+  inlined_as_list: true
+    
+mims_humanskin_ancient_data:
+  description: Data that comply with Ancient combined with MimsHumanSkin
+  title: MimsHumanSkinAncient Data
+  domain: MixsCompliantData
+  slot_uri: MIXS:mims_humanskin_ancient_data
+  multivalued: true
+  range: MimsHumanSkinAncient
+  inlined: true
+  inlined_as_list: true
+    
+mims_sediment_ancient_data:
+  description: Data that comply with Ancient combined with MimsSediment
+  title: MimsSedimentAncient Data
+  domain: MixsCompliantData
+  slot_uri: MIXS:mims_sediment_ancient_data
+  multivalued: true
+  range: MimsSedimentAncient
+  inlined: true
+  inlined_as_list: true
+    
+mims_soil_ancient_data:
+  description: Data that comply with Ancient combined with MimsSoil
+  title: MimsSoilAncient Data
+  domain: MixsCompliantData
+  slot_uri: MIXS:mims_soil_ancient_data
+  multivalued: true
+  range: MimsSoilAncient
+  inlined: true
+  inlined_as_list: true
+    
+mims_plantassociated_ancient_data:
+  description: Data that comply with Ancient combined with MimsPlantAssociated
+  title: MimsPlantAssociatedAncient Data
+  domain: MixsCompliantData
+  slot_uri: MIXS:mims_plantassociated_ancient_data
+  multivalued: true
+  range: MimsPlantAssociatedAncient
+  inlined: true
+  inlined_as_list: true
+    
+mims_symbiontassociated_ancient_data:
+  description: Data that comply with Ancient combined with MimsSymbiontAssociated
+  title: MimsSymbiontAssociatedAncient Data
+  domain: MixsCompliantData
+  slot_uri: MIXS:mims_symbiontassociated_ancient_data
+  multivalued: true
+  range: MimsSymbiontAssociatedAncient
+  inlined: true
+  inlined_as_list: true
+    
