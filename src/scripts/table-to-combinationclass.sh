@@ -32,8 +32,7 @@ while read line; do
   multivalued: true
   range: ${checklist}${extension}Ancient
   inlined: true
-  inlined_as_list: true
-    " >>minas-combination-slots.txt
+  inlined_as_list: true" >>minas-combination-slots.txt
 
   echo "CLASSES #########################"
   echo "${checklist}${extension}Ancient:
