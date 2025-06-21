@@ -3419,6 +3419,612 @@ classes:
     mixins:
       - MimsPlantAssociated
     class_uri: MIXS:10007_16010_9999903
+    slots:
+      - project_name
+      - associated_resource
+      - geo_loc_name
+      - lat_lon
+      - env_broad_scale
+      - env_local_scale
+      - alt
+      - depth
+      - elev
+      - temp
+      - salinity
+      - perturbation
+      - humidity_regm
+      - experimental_factor
+      - collection_context_name
+      - samp_name
+      - samp_alt_lab_ids
+      - ethical_authority
+      - ethical_id
+      - ethical_date
+      - ethics_perm_scope
+      - biocultural_label
+      - samp_age_range_oldest_limit
+      - samp_age_range_oldest_unit
+      - samp_age_range_youngest_limit
+      - samp_age_range_youngest_unit
+      - samp_age_range_inference_description
+      - samp_age_range_inference_methods
+      - cultural_era
+      - samp_taxon_id
+      - recovery_date
+      - collection_date
+      - source_mat_id
+      - storage_conditions
+      - preservational_treatment
+      - host_taxid
+      - host_common_name
+      - host_subspecf_genlin
+      - host_age
+      - host_body_preservation_state
+      - host_height
+      - host_phenotype
+      - host_genotype
+      - biol_stat
+      - host_symbiont
+      - host_disease_stat
+      - palaeopath_status
+      - organism_count
+      - rel_to_oxygen
+      - oxy_stat_samp
+      - host_dry_mass
+      - host_length
+      - host_life_stage
+      - host_tot_mass
+      - host_wet_mass
+      - chem_administration
+      - plant_sex
+      - ances_data
+      - plant_struc
+      - plant_product
+      - plant_growth_med
+      - growth_facil
+      - growth_habit
+      - climate_environment
+      - season_environment
+      - tiss_cult_growth_med
+      - chem_mutagen
+      - gaseous_environment
+      - genetic_mod
+      - gravity
+      - growth_hormone_regm
+      - herbicide_regm
+      - light_regm
+      - mechanical_damage
+      - cult_root_med
+      - mineral_nutr_regm
+      - non_min_nutr_regm
+      - pesticide_regm
+      - ph_regm
+      - radiation_regm
+      - rainfall_regm
+      - salt_regm
+      - water_temp_regm
+      - watering_regm
+      - standing_water_regm
+      - air_temp_regm
+      - antibiotic_regm
+      - biotic_regm
+      - fertilizer_regm
+      - fungicide_regm
+      - root_cond
+      - root_med_carbon
+      - root_med_macronutr
+      - root_med_micronutr
+      - root_med_ph
+      - root_med_regl
+      - root_med_solid
+      - root_med_suppl
+      - samp_capt_status
+      - samp_dis_stage
+      - prev_pubs
+      - ref_biomaterial
+      - misc_param
+      - neg_cont_status
+      - neg_cont_type
+      - pos_cont_type
+      - env_medium
+      - samp_collect_method
+      - samp_collect_device
+      - samp_decontam_pretreat
+      - samp_mat_process
+      - size_frac
+      - samp_size
+      - samp_store_loc
+      - samp_store_dur
+      - samp_store_temp
+      - dna_extraction_date
+      - samp_vol_we_dna_ext
+      - nucl_acid_ext
+      - damage_treatment
+      - lib_strandedness
+      - adapters
+      - mid
+      - mid_config
+      - lib_type
+      - lib_screen
+      - lib_vector
+      - lib_size
+      - lib_concentration
+      - lib_index_polymerase
+      - genomic_capture_probe_taxid
+      - genomic_capture_probe_desc
+      - num_capture_amp_cycles
+      - num_reamp_cycles
+      - lib_reamplification_polymerase
+      - nucl_acid_amp
+      - seq_meth
+      - lib_layout
+      - lib_reads_seqd
+      - experimental_procedures
+      - lib_preparation_protocol
+      - assembly_name
+      - assembly_software
+      - number_contig
+      - assembly_qual
+      - tax_class
+      - annot
+      - feat_pred
+      - sim_search_meth
+      - ances_data
+      - sop
+    slots_usage:
+      project_name:
+        rank: 1
+        slot_group: investigation
+      associated_resource:
+        rank: 2
+        slot_group: investigation
+      geo_loc_name:
+        rank: 3
+        slot_group: environment
+      lat_lon:
+        rank: 4
+        slot_group: environment
+      env_broad_scale:
+        rank: 5
+        slot_group: environment
+      env_local_scale:
+        rank: 6
+        slot_group: environment
+      alt:
+        rank: 7
+        slot_group: environment
+      depth:
+        rank: 8
+        slot_group: environment
+      elev:
+        rank: 9
+        slot_group: environment
+      temp:
+        rank: 10
+        slot_group: environment
+      salinity:
+        rank: 11
+        slot_group: environment
+      perturbation:
+        rank: 12
+        slot_group: environment
+      humidity_regm:
+        rank: 13
+        slot_group: environment
+      experimental_factor:
+        rank: 14
+        slot_group: environment
+      collection_context_name:
+        rank: 15
+        slot_group: environment
+      samp_name:
+        rank: 16
+        slot_group: sample body
+      samp_alt_lab_ids:
+        rank: 17
+        slot_group: sample body
+      ethical_authority:
+        rank: 18
+        slot_group: sample body
+      ethical_id:
+        rank: 19
+        slot_group: sample body
+      ethical_date:
+        rank: 20
+        slot_group: sample body
+      ethics_perm_scope:
+        rank: 21
+        slot_group: sample body
+      biocultural_label:
+        rank: 22
+        slot_group: sample body
+      samp_age_range_oldest_limit:
+        rank: 23
+        slot_group: sample body
+      samp_age_range_oldest_unit:
+        rank: 24
+        slot_group: sample body
+      samp_age_range_youngest_limit:
+        rank: 25
+        slot_group: sample body
+      samp_age_range_youngest_unit:
+        rank: 26
+        slot_group: sample body
+      samp_age_range_inference_description:
+        rank: 27
+        slot_group: sample body
+      samp_age_range_inference_methods:
+        rank: 28
+        slot_group: sample body
+      cultural_era:
+        rank: 29
+        slot_group: sample body
+      samp_taxon_id:
+        rank: 30
+        slot_group: sample body
+      recovery_date:
+        rank: 31
+        slot_group: sample body
+      collection_date:
+        rank: 32
+        slot_group: sample body
+      source_mat_id:
+        rank: 33
+        slot_group: sample body
+      storage_conditions:
+        rank: 34
+        slot_group: sample body
+      preservational_treatment:
+        rank: 35
+        slot_group: sample body
+      host_taxid:
+        rank: 36
+        slot_group: sample body
+      host_common_name:
+        rank: 37
+        slot_group: sample body
+      host_subspecf_genlin:
+        rank: 38
+        slot_group: sample body
+      host_age:
+        rank: 39
+        slot_group: sample body
+      host_body_preservation_state:
+        rank: 40
+        slot_group: sample body
+      host_height:
+        rank: 41
+        slot_group: sample body
+      host_phenotype:
+        rank: 42
+        slot_group: sample body
+      host_genotype:
+        rank: 43
+        slot_group: sample body
+      biol_stat:
+        rank: 44
+        slot_group: sample body
+      host_symbiont:
+        rank: 45
+        slot_group: sample body
+      host_disease_stat:
+        rank: 46
+        slot_group: sample body
+      palaeopath_status:
+        rank: 47
+        slot_group: sample body
+      organism_count:
+        rank: 48
+        slot_group: sample body
+      rel_to_oxygen:
+        rank: 49
+        slot_group: sample body
+      oxy_stat_samp:
+        rank: 50
+        slot_group: sample body
+      host_dry_mass:
+        rank: 51
+        slot_group: sample body
+      host_length:
+        rank: 52
+        slot_group: sample body
+      host_life_stage:
+        rank: 53
+        slot_group: sample body
+      host_tot_mass:
+        rank: 54
+        slot_group: sample body
+      host_wet_mass:
+        rank: 55
+        slot_group: sample body
+      chem_administration:
+        rank: 56
+        slot_group: sample body
+      plant_sex:
+        rank: 57
+        slot_group: sample body
+      ances_data:
+        rank: 58
+        slot_group: sample body
+      plant_struc:
+        rank: 59
+        slot_group: sample body
+      plant_product:
+        rank: 60
+        slot_group: sample body
+      plant_growth_med:
+        rank: 61
+        slot_group: sample body
+      growth_facil:
+        rank: 62
+        slot_group: sample body
+      growth_habit:
+        rank: 63
+        slot_group: sample body
+      climate_environment:
+        rank: 64
+        slot_group: sample body
+      season_environment:
+        rank: 65
+        slot_group: sample body
+      tiss_cult_growth_med:
+        rank: 66
+        slot_group: sample body
+      chem_mutagen:
+        rank: 67
+        slot_group: sample body
+      gaseous_environment:
+        rank: 68
+        slot_group: sample body
+      genetic_mod:
+        rank: 69
+        slot_group: sample body
+      gravity:
+        rank: 70
+        slot_group: sample body
+      growth_hormone_regm:
+        rank: 71
+        slot_group: sample body
+      herbicide_regm:
+        rank: 72
+        slot_group: sample body
+      light_regm:
+        rank: 73
+        slot_group: sample body
+      mechanical_damage:
+        rank: 74
+        slot_group: sample body
+      cult_root_med:
+        rank: 75
+        slot_group: sample body
+      mineral_nutr_regm:
+        rank: 76
+        slot_group: sample body
+      non_min_nutr_regm:
+        rank: 77
+        slot_group: sample body
+      pesticide_regm:
+        rank: 78
+        slot_group: sample body
+      ph_regm:
+        rank: 79
+        slot_group: sample body
+      radiation_regm:
+        rank: 80
+        slot_group: sample body
+      rainfall_regm:
+        rank: 81
+        slot_group: sample body
+      salt_regm:
+        rank: 82
+        slot_group: sample body
+      water_temp_regm:
+        rank: 83
+        slot_group: sample body
+      watering_regm:
+        rank: 84
+        slot_group: sample body
+      standing_water_regm:
+        rank: 85
+        slot_group: sample body
+      air_temp_regm:
+        rank: 86
+        slot_group: sample body
+      antibiotic_regm:
+        rank: 87
+        slot_group: sample body
+      biotic_regm:
+        rank: 88
+        slot_group: sample body
+      fertilizer_regm:
+        rank: 89
+        slot_group: sample body
+      fungicide_regm:
+        rank: 90
+        slot_group: sample body
+      root_cond:
+        rank: 91
+        slot_group: sample body
+      root_med_carbon:
+        rank: 92
+        slot_group: sample body
+      root_med_macronutr:
+        rank: 93
+        slot_group: sample body
+      root_med_micronutr:
+        rank: 94
+        slot_group: sample body
+      root_med_ph:
+        rank: 95
+        slot_group: sample body
+      root_med_regl:
+        rank: 96
+        slot_group: sample body
+      root_med_solid:
+        rank: 97
+        slot_group: sample body
+      root_med_suppl:
+        rank: 98
+        slot_group: sample body
+      samp_capt_status:
+        rank: 99
+        slot_group: sample body
+      samp_dis_stage:
+        rank: 100
+        slot_group: sample body
+      prev_pubs:
+        rank: 101
+        slot_group: sample body
+      ref_biomaterial:
+        rank: 102
+        slot_group: sample body
+      misc_param:
+        rank: 103
+        slot_group: sample body
+      neg_cont_status:
+        rank: 104
+        slot_group: nucleic acid source
+      neg_cont_type:
+        rank: 105
+        slot_group: nucleic acid source
+      pos_cont_type:
+        rank: 106
+        slot_group: nucleic acid source
+      env_medium:
+        rank: 107
+        slot_group: nucleic acid source
+      samp_collect_method:
+        rank: 108
+        slot_group: nucleic acid source
+      samp_collect_device:
+        rank: 109
+        slot_group: nucleic acid source
+      samp_decontam_pretreat:
+        rank: 110
+        slot_group: nucleic acid source
+      samp_mat_process:
+        rank: 111
+        slot_group: nucleic acid source
+      size_frac:
+        rank: 112
+        slot_group: nucleic acid source
+      samp_size:
+        rank: 113
+        slot_group: nucleic acid source
+      samp_store_loc:
+        rank: 114
+        slot_group: nucleic acid source
+      samp_store_dur:
+        rank: 115
+        slot_group: nucleic acid source
+      samp_store_temp:
+        rank: 116
+        slot_group: nucleic acid source
+      dna_extraction_date:
+        rank: 117
+        slot_group: nucleic acid source
+      samp_vol_we_dna_ext:
+        rank: 118
+        slot_group: nucleic acid source
+      nucl_acid_ext:
+        rank: 119
+        slot_group: nucleic acid source
+      damage_treatment:
+        rank: 120
+        slot_group: sequencing
+      lib_strandedness:
+        rank: 121
+        slot_group: sequencing
+      adapters:
+        rank: 122
+        slot_group: sequencing
+      mid:
+        rank: 123
+        slot_group: sequencing
+      mid_config:
+        rank: 124
+        slot_group: sequencing
+      lib_type:
+        rank: 125
+        slot_group: sequencing
+      lib_screen:
+        rank: 126
+        slot_group: sequencing
+      lib_vector:
+        rank: 127
+        slot_group: sequencing
+      lib_size:
+        rank: 128
+        slot_group: sequencing
+      lib_concentration:
+        rank: 129
+        slot_group: sequencing
+      lib_index_polymerase:
+        rank: 130
+        slot_group: sequencing
+      genomic_capture_probe_taxid:
+        rank: 131
+        slot_group: sequencing
+      genomic_capture_probe_desc:
+        rank: 132
+        slot_group: sequencing
+      num_capture_amp_cycles:
+        rank: 133
+        slot_group: sequencing
+      num_reamp_cycles:
+        rank: 134
+        slot_group: sequencing
+      lib_reamplification_polymerase:
+        rank: 135
+        slot_group: sequencing
+      nucl_acid_amp:
+        rank: 136
+        slot_group: sequencing
+      seq_meth:
+        rank: 137
+        slot_group: sequencing
+      lib_layout:
+        rank: 138
+        slot_group: sequencing
+      lib_reads_seqd:
+        rank: 139
+        slot_group: sequencing
+      experimental_procedures:
+        rank: 140
+        slot_group: sequencing
+      lib_preparation_protocol:
+        rank: 141
+        slot_group: sequencing
+      assembly_name:
+        rank: 142
+        slot_group: data analysis
+      assembly_software:
+        rank: 143
+        slot_group: data analysis
+      number_contig:
+        rank: 144
+        slot_group: data analysis
+      assembly_qual:
+        rank: 145
+        slot_group: data analysis
+      tax_class:
+        rank: 146
+        slot_group: data analysis
+      annot:
+        rank: 147
+        slot_group: data analysis
+      feat_pred:
+        rank: 148
+        slot_group: data analysis
+      sim_search_meth:
+        rank: 149
+        slot_group: data analysis
+      ances_data:
+        rank: 150
+        slot_group: data analysis
+      sop:
+        rank: 151
+        slot_group: data analysis
   MimsSymbiontAssociatedAncient:
     description: MIxS Data that comply with the Mims checklist, and SymbiontAssociated and Ancient extensions.
     title: MimsSymbiontAssociated combined with Ancient
