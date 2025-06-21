@@ -1920,10 +1920,10 @@ classes:
     slot_usage:
       project_name:
         rank: 1
-        slot_group: investigation
+        slot_group: Investigation
       associated_resource:
         rank: 2
-        slot_group: investigation
+        slot_group: Investigation
       geo_loc_name:
         rank: 3
         slot_group: Environment
@@ -3013,10 +3013,10 @@ classes:
     slot_usage:
       project_name:
         rank: 1
-        slot_group: investigation
+        slot_group: Investigation
       associated_resource:
         rank: 2
-        slot_group: investigation
+        slot_group: Investigation
       geo_loc_name:
         rank: 3
         slot_group: Environment
@@ -3574,10 +3574,10 @@ classes:
     slot_usage:
       project_name:
         rank: 1
-        slot_group: investigation
+        slot_group: Investigation
       associated_resource:
         rank: 2
-        slot_group: investigation
+        slot_group: Investigation
       geo_loc_name:
         rank: 3
         slot_group: Environment
