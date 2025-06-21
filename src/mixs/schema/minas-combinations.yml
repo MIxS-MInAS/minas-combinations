@@ -2876,7 +2876,7 @@ classes:
     mixins:
       - MimsSoil
     class_uri: MIXS:10007_16012_9999903
-    slot:
+    slots:
       - project_name
       - associated_resource
       - geo_loc_name
