@@ -3571,7 +3571,7 @@ classes:
       - sim_search_meth
       - ances_data
       - sop
-    slots_usage:
+    slot_usage:
       project_name:
         rank: 1
         slot_group: investigation
