@@ -1,5 +1,7 @@
 # minas-combinations
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16495005.svg)](https://doi.org/10.5281/zenodo.16495005)
+
 Schemas of most common ancient DNA + sample type MIxS combination.
 
 This repository holds _partial_ LinkML schemas of the relevant classes and slots for defining ancient DNA specific _combinations_.
