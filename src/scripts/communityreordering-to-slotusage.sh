@@ -19,7 +19,7 @@ while read line; do
 
   slot_name=$(echo "$line" | cut -d, -f7)
   slot_rank=$(echo "$line" | cut -d, -f6)
-  slot_subset=$(echo "$line" | cut -d, -f2)
+  slot_group=$(echo "$line" | cut -d, -f4)
 
   echo "## PROCESSING $slot_name"
 
@@ -30,7 +30,7 @@ while read line; do
   {
     echo "      ${slot_name}:"
     echo "        rank: ${slot_rank}"
-    echo "        slot_subset: ${slot_subset}"
+    echo "        slot_group: ${slot_group}"
   } >>temp.slotusage
 done <<<"$(tail +2 $table)"
 
