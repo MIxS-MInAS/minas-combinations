@@ -62,7 +62,6 @@ slots:
   - host_disease_stat
   - palaeopath_status
   - nose_mouth_teeth_throat_disord
-  - string
   - medic_hist_perform
   - ihmc_medication_code
   - chem_administration

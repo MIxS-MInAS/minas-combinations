@@ -1263,7 +1263,6 @@ classes:
       - host_disease_stat
       - palaeopath_status
       - nose_mouth_teeth_throat_disord
-      - string
       - medic_hist_perform
       - ihmc_medication_code
       - chem_administration
@@ -1514,9 +1513,6 @@ classes:
       nose_mouth_teeth_throat_disord:
         rank: 63
         slot_group: environment
-      string:
-        rank:
-        slot_group:
       medic_hist_perform:
         rank: 64
         slot_group: environment
