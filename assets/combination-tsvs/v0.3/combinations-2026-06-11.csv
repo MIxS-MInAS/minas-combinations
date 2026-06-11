@@ -1,0 +1,9 @@
+Checklist,Checklist URI,Extension 1,Extension 1 URI,Extension 2,Existing Combination,Full name,Example
+Mims,10007,HostAssociated,16002,Ancient,MimsHostAssociated,MimsHostAssociatedAncient,General skeleton-derived ancient DNA short-read sequences
+Mims,10007,HumanAssociated,16003,Ancient,MimsHumanAssociated,MimsHumanAssociatedAncient,Human skeleton-derived ancient DNA short-read sequences
+Mims,10007,HumanOral,16005,Ancient,MimsHumanOral,MimsHumanOralAncient,Human dental calculus-derived ancient DNA short-read sequences
+Mims,10007,HumanGut,16004,Ancient,MimsHumanGut,MimsHumanGutAncient,Human palaeofaeces-derived ancient DNA short-read sequences
+Mims,10007,HumanSkin,16006,Ancient,MimsHumanSkin,MimsHumanSkinAncient,Human mummy skin-derived ancient DNA short-read sequences
+Mims,10007,Sediment,16011,Ancient,MimsSediment,MimsSedimentAncient,Sediment-derived ancient DNA short-read sequences
+Mims,10007,Soil,16012,Ancient,MimsSoil,MimsSoilAncient,Soil-derived ancient DNA short-read sequences
+Mims,10007,PlantAssociated,16010,Ancient,MimsPlantAssociated,MimsPlantAssociatedAncient,Plant-derived ancient DNA short-read sequences

@@ -1,0 +1,642 @@
+slots:
+  - project_name
+  - associated_resource
+  - orig_site_name
+  - orig_site_loc
+  - orig_site_lat
+  - orig_site_lon
+  - past_env_broad
+  - past_env_local
+  - context_retrieval_date
+  - stratigraph_context
+  - geo_loc_name
+  - lat_lon
+  - env_broad_scale
+  - env_local_scale
+  - alt
+  - depth
+  - elev
+  - temp
+  - perturbation
+  - salinity
+  - experimental_factor
+  - source_mat_id
+  - samp_name
+  - samp_alt_lab_ids
+  - permit_authority
+  - permit_id
+  - permit_date
+  - permit_scope
+  - biocultural_label
+  - earliest_chrono_age
+  - earliest_chrono_sys
+  - latest_chrono_age
+  - latest_chrono_sys
+  - chrono_age_protocol
+  - chrono_age_remarks
+  - geological_epoch
+  - cultural_era
+  - samp_taxon_id
+  - collection_date
+  - host_common_name
+  - host_taxid
+  - store_cond
+  - samp_preserv_treatm
+  - host_age
+  - host_life_stage
+  - plant_sex
+  - host_height
+  - host_length
+  - host_phenotype
+  - host_tot_mass
+  - host_wet_mass
+  - host_dry_mass
+  - plant_product
+  - ances_data
+  - biol_stat
+  - host_genotype
+  - host_subspecf_genlin
+  - genetic_mod
+  - host_disease_stat
+  - samp_dis_stage
+  - palaeopath_status
+  - host_symbiont
+  - chem_administration
+  - prev_pubs
+  - ref_biomaterial
+  - organism_count
+  - rel_to_oxygen
+  - oxy_stat_samp
+  - host_preserv_state
+  - samp_capt_status
+  - misc_param
+  - air_temp_regm
+  - antibiotic_regm
+  - biotic_regm
+  - fertilizer_regm
+  - fungicide_regm
+  - herbicide_regm
+  - humidity_regm
+  - mineral_nutr_regm
+  - non_min_nutr_regm
+  - pesticide_regm
+  - ph_regm
+  - salt_regm
+  - standing_water_regm
+  - water_temp_regm
+  - watering_regm
+  - growth_hormone_regm
+  - light_regm
+  - radiation_regm
+  - rainfall_regm
+  - climate_environment
+  - gaseous_environment
+  - season_environment
+  - chem_mutagen
+  - cult_root_med
+  - plant_growth_med
+  - root_med_carbon
+  - root_med_macronutr
+  - root_med_micronutr
+  - root_med_ph
+  - root_med_regl
+  - root_med_solid
+  - root_med_suppl
+  - tiss_cult_growth_med
+  - gravity
+  - growth_facil
+  - growth_habit
+  - mechanical_damage
+  - plant_struc
+  - root_cond
+  - batch_ids
+  - samp_category
+  - neg_cont_type
+  - pos_cont_type
+  - env_medium
+  - samp_collect_method
+  - samp_collect_device
+  - samp_mat_process
+  - samp_size
+  - samp_store_loc
+  - samp_store_dur
+  - samp_store_temp
+  - samp_decont_pretreat
+  - size_frac
+  - samp_vol_we_dna_ext
+  - nucl_acid_extr_date
+  - nucl_acid_ext
+  - sop_experimental
+  - library_name
+  - damage_treatment
+  - lib_strandedness
+  - adapters
+  - mid
+  - lib_mid_desc
+  - lib_gener_technique
+  - lib_screen
+  - lib_vector
+  - lib_size
+  - lib_polymerase
+  - capt_probe_src_taxid
+  - capt_probe_desc
+  - capt_pcr_cyc_tot
+  - reamp_pcr_cyc_tot
+  - nucl_acid_amp
+  - seq_meth
+  - lib_layout
+  - lib_reads_seqd
+  - sop_lib_preparation
+  - data_preproc_desc
+  - reads_removed_desc
+  - assembly_name
+  - assembly_software
+  - assembly_qual
+  - number_contig
+  - tax_class
+  - annot
+  - feat_pred
+  - sim_search_meth
+  - ref_db
+  - sop
+slot_usage:
+  project_name:
+    rank: 1
+    slot_subset: investigation
+  associated_resource:
+    rank: 2
+    slot_subset: sequencing
+  orig_site_name:
+    rank: 3
+    slot_subset: environment
+  orig_site_loc:
+    rank: 4
+    slot_subset: environment
+  orig_site_lat:
+    rank: 5
+    slot_subset: environment
+  orig_site_lon:
+    rank: 6
+    slot_subset: environment
+  past_env_broad:
+    rank: 7
+    slot_subset: environment
+  past_env_local:
+    rank: 8
+    slot_subset: environment
+  context_retrieval_date:
+    rank: 9
+    slot_subset: environment
+  stratigraph_context:
+    rank: 10
+    slot_subset: environment
+  geo_loc_name:
+    rank: 11
+    slot_subset: environment
+  lat_lon:
+    rank: 12
+    slot_subset: environment
+  env_broad_scale:
+    rank: 13
+    slot_subset: environment
+  env_local_scale:
+    rank: 14
+    slot_subset: environment
+  alt:
+    rank: 15
+    slot_subset: environment
+  depth:
+    rank: 16
+    slot_subset: environment
+  elev:
+    rank: 17
+    slot_subset: environment
+  temp:
+    rank: 18
+    slot_subset: environment
+  perturbation:
+    rank: 19
+    slot_subset: environment
+  salinity:
+    rank: 20
+    slot_subset: environment
+  experimental_factor:
+    rank: 21
+    slot_subset: investigation
+  source_mat_id:
+    rank: 22
+    slot_subset: nucleic acid sequence source
+  samp_name:
+    rank: 23
+    slot_subset: investigation
+  samp_alt_lab_ids:
+    rank: 24
+    slot_subset: nucleic acid sequence source
+  permit_authority:
+    rank: 25
+    slot_subset: nucleic acid sequence source
+  permit_id:
+    rank: 26
+    slot_subset: nucleic acid sequence source
+  permit_date:
+    rank: 27
+    slot_subset: nucleic acid sequence source
+  permit_scope:
+    rank: 28
+    slot_subset: nucleic acid sequence source
+  biocultural_label:
+    rank: 29
+    slot_subset: nucleic acid sequence source
+  earliest_chrono_age:
+    rank: 30
+    slot_subset: nucleic acid sequence source
+  earliest_chrono_sys:
+    rank: 31
+    slot_subset: nucleic acid sequence source
+  latest_chrono_age:
+    rank: 32
+    slot_subset: nucleic acid sequence source
+  latest_chrono_sys:
+    rank: 33
+    slot_subset: nucleic acid sequence source
+  chrono_age_protocol:
+    rank: 34
+    slot_subset: nucleic acid sequence source
+  chrono_age_remarks:
+    rank: 35
+    slot_subset: nucleic acid sequence source
+  geological_epoch:
+    rank: 36
+    slot_subset: nucleic acid sequence source
+  cultural_era:
+    rank: 37
+    slot_subset: nucleic acid sequence source
+  samp_taxon_id:
+    rank: 38
+    slot_subset: investigation
+  collection_date:
+    rank: 39
+    slot_subset: environment
+  host_common_name:
+    rank: 40
+    slot_subset: environment
+  host_taxid:
+    rank: 41
+    slot_subset: environment
+  store_cond:
+    rank: 42
+    slot_subset: nucleic acid sequence source
+  samp_preserv_treatm:
+    rank: 43
+    slot_subset: nucleic acid sequence source
+  host_age:
+    rank: 44
+    slot_subset: environment
+  host_life_stage:
+    rank: 45
+    slot_subset: environment
+  plant_sex:
+    rank: 46
+    slot_subset: environment
+  host_height:
+    rank: 47
+    slot_subset: environment
+  host_length:
+    rank: 48
+    slot_subset: environment
+  host_phenotype:
+    rank: 49
+    slot_subset: environment
+  host_tot_mass:
+    rank: 50
+    slot_subset: environment
+  host_wet_mass:
+    rank: 51
+    slot_subset: environment
+  host_dry_mass:
+    rank: 52
+    slot_subset: environment
+  plant_product:
+    rank: 53
+    slot_subset: environment
+  ances_data:
+    rank: 54
+    slot_subset: environment
+  biol_stat:
+    rank: 55
+    slot_subset: environment
+  host_genotype:
+    rank: 56
+    slot_subset: environment
+  host_subspecf_genlin:
+    rank: 57
+    slot_subset: environment
+  genetic_mod:
+    rank: 58
+    slot_subset: environment
+  host_disease_stat:
+    rank: 59
+    slot_subset: nucleic acid sequence source
+  samp_dis_stage:
+    rank: 60
+    slot_subset: environment
+  palaeopath_status:
+    rank: 61
+    slot_subset: environment
+  host_symbiont:
+    rank: 62
+    slot_subset: environment
+  chem_administration:
+    rank: 63
+    slot_subset: environment
+  prev_pubs:
+    rank: 64
+    slot_subset: nucleic acid sequence source
+  ref_biomaterial:
+    rank: 65
+    slot_subset: nucleic acid sequence source
+  organism_count:
+    rank: 66
+    slot_subset: environment
+  rel_to_oxygen:
+    rank: 67
+    slot_subset: nucleic acid sequence source
+  oxy_stat_samp:
+    rank: 68
+    slot_subset: environment
+  host_preserv_state:
+    rank: 69
+    slot_subset: nucleic acid sequence source
+  samp_capt_status:
+    rank: 70
+    slot_subset: environment
+  misc_param:
+    rank: 71
+    slot_subset: environment
+  air_temp_regm:
+    rank: 72
+    slot_subset: environment
+  antibiotic_regm:
+    rank: 73
+    slot_subset: environment
+  biotic_regm:
+    rank: 74
+    slot_subset: environment
+  fertilizer_regm:
+    rank: 75
+    slot_subset: environment
+  fungicide_regm:
+    rank: 76
+    slot_subset: environment
+  herbicide_regm:
+    rank: 77
+    slot_subset: environment
+  humidity_regm:
+    rank: 78
+    slot_subset: environment
+  mineral_nutr_regm:
+    rank: 79
+    slot_subset: environment
+  non_min_nutr_regm:
+    rank: 80
+    slot_subset: environment
+  pesticide_regm:
+    rank: 81
+    slot_subset: environment
+  ph_regm:
+    rank: 82
+    slot_subset: environment
+  salt_regm:
+    rank: 83
+    slot_subset: environment
+  standing_water_regm:
+    rank: 84
+    slot_subset: environment
+  water_temp_regm:
+    rank: 85
+    slot_subset: environment
+  watering_regm:
+    rank: 86
+    slot_subset: environment
+  growth_hormone_regm:
+    rank: 87
+    slot_subset: environment
+  light_regm:
+    rank: 88
+    slot_subset: environment
+  radiation_regm:
+    rank: 89
+    slot_subset: environment
+  rainfall_regm:
+    rank: 90
+    slot_subset: environment
+  climate_environment:
+    rank: 91
+    slot_subset: environment
+  gaseous_environment:
+    rank: 92
+    slot_subset: environment
+  season_environment:
+    rank: 93
+    slot_subset: environment
+  chem_mutagen:
+    rank: 94
+    slot_subset: environment
+  cult_root_med:
+    rank: 95
+    slot_subset: environment
+  plant_growth_med:
+    rank: 96
+    slot_subset: environment
+  root_med_carbon:
+    rank: 97
+    slot_subset: environment
+  root_med_macronutr:
+    rank: 98
+    slot_subset: environment
+  root_med_micronutr:
+    rank: 99
+    slot_subset: environment
+  root_med_ph:
+    rank: 100
+    slot_subset: environment
+  root_med_regl:
+    rank: 101
+    slot_subset: environment
+  root_med_solid:
+    rank: 102
+    slot_subset: environment
+  root_med_suppl:
+    rank: 103
+    slot_subset: environment
+  tiss_cult_growth_med:
+    rank: 104
+    slot_subset: environment
+  gravity:
+    rank: 105
+    slot_subset: environment
+  growth_facil:
+    rank: 106
+    slot_subset: environment
+  growth_habit:
+    rank: 107
+    slot_subset: environment
+  mechanical_damage:
+    rank: 108
+    slot_subset: environment
+  plant_struc:
+    rank: 109
+    slot_subset: environment
+  root_cond:
+    rank: 110
+    slot_subset: environment
+  batch_ids:
+    rank: 111
+    slot_subset: nucleic acid sequence source
+  samp_category:
+    rank: 112
+    slot_subset: nucleic acid sequence source
+  neg_cont_type:
+    rank: 113
+    slot_subset: investigation
+  pos_cont_type:
+    rank: 114
+    slot_subset: investigation
+  env_medium:
+    rank: 115
+    slot_subset: environment
+  samp_collect_method:
+    rank: 116
+    slot_subset: nucleic acid sequence source
+  samp_collect_device:
+    rank: 117
+    slot_subset: nucleic acid sequence source
+  samp_mat_process:
+    rank: 118
+    slot_subset: nucleic acid sequence source
+  samp_size:
+    rank: 119
+    slot_subset: nucleic acid sequence source
+  samp_store_loc:
+    rank: 120
+    slot_subset: nucleic acid sequence source
+  samp_store_dur:
+    rank: 121
+    slot_subset: nucleic acid sequence source
+  samp_store_temp:
+    rank: 122
+    slot_subset: nucleic acid sequence source
+  samp_decont_pretreat:
+    rank: 123
+    slot_subset: nucleic acid sequence source
+  size_frac:
+    rank: 124
+    slot_subset: nucleic acid sequence source
+  samp_vol_we_dna_ext:
+    rank: 125
+    slot_subset: nucleic acid sequence source
+  nucl_acid_extr_date:
+    rank: 126
+    slot_subset: nucleic acid sequence source
+  nucl_acid_ext:
+    rank: 127
+    slot_subset: sequencing
+  sop_experimental:
+    rank: 128
+    slot_subset: nucleic acid sequence source
+  library_name:
+    rank: 129
+    slot_subset: sequencing
+  damage_treatment:
+    rank: 130
+    slot_subset: sequencing
+  lib_strandedness:
+    rank: 131
+    slot_subset: sequencing
+  adapters:
+    rank: 132
+    slot_subset: sequencing
+  mid:
+    rank: 133
+    slot_subset: sequencing
+  lib_mid_desc:
+    rank: 134
+    slot_subset: sequencing
+  lib_gener_technique:
+    rank: 135
+    slot_subset: sequencing
+  lib_screen:
+    rank: 136
+    slot_subset: sequencing
+  lib_vector:
+    rank: 137
+    slot_subset: sequencing
+  lib_size:
+    rank: 138
+    slot_subset: sequencing
+  lib_polymerase:
+    rank: 139
+    slot_subset: sequencing
+  capt_probe_src_taxid:
+    rank: 140
+    slot_subset: sequencing
+  capt_probe_desc:
+    rank: 141
+    slot_subset: sequencing
+  capt_pcr_cyc_tot:
+    rank: 142
+    slot_subset: sequencing
+  reamp_pcr_cyc_tot:
+    rank: 143
+    slot_subset: sequencing
+  nucl_acid_amp:
+    rank: 144
+    slot_subset: sequencing
+  seq_meth:
+    rank: 145
+    slot_subset: sequencing
+  lib_layout:
+    rank: 146
+    slot_subset: sequencing
+  lib_reads_seqd:
+    rank: 147
+    slot_subset: sequencing
+  sop_lib_preparation:
+    rank: 148
+    slot_subset: sequencing
+  data_preproc_desc:
+    rank: 149
+    slot_subset: sequencing
+  reads_removed_desc:
+    rank: 150
+    slot_subset: sequencing
+  assembly_name:
+    rank: 151
+    slot_subset: sequencing
+  assembly_software:
+    rank: 152
+    slot_subset: sequencing
+  assembly_qual:
+    rank: 153
+    slot_subset: sequencing
+  number_contig:
+    rank: 154
+    slot_subset: sequencing
+  tax_class:
+    rank: 155
+    slot_subset: sequencing
+  annot:
+    rank: 156
+    slot_subset: sequencing
+  feat_pred:
+    rank: 157
+    slot_subset: sequencing
+  sim_search_meth:
+    rank: 158
+    slot_subset: sequencing
+  ref_db:
+    rank: 159
+    slot_subset: sequencing
+  sop:
+    rank: 160
+    slot_subset: sequencing

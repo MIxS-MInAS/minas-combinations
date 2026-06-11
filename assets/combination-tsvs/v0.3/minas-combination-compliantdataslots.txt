@@ -1,0 +1,15 @@
+  MixsCompliantData:
+    description:
+      A collection of Data that comply with some combination of a MIxS
+      checklist and environmental extension
+    title: MIxS compliant data
+    slots:
+      - mims_hostassociated_ancient_data
+      - mims_humanassociated_ancient_data
+      - mims_humanoral_ancient_data
+      - mims_humangut_ancient_data
+      - mims_humanskin_ancient_data
+      - mims_sediment_ancient_data
+      - mims_soil_ancient_data
+      - mims_plantassociated_ancient_data
+    tree_root: true

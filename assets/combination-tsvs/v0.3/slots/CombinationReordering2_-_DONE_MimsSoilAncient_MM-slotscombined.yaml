@@ -1,0 +1,566 @@
+    slots:
+      - project_name
+      - associated_resource
+      - orig_site_name
+      - orig_site_loc
+      - orig_site_lat
+      - orig_site_lon
+      - past_env_broad
+      - past_env_local
+      - context_retrieval_date
+      - stratigraph_context
+      - soil_horizon
+      - horizon_meth
+      - tillage
+      - profile_position
+      - slope_aspect
+      - slope_gradient
+      - geo_loc_name
+      - lat_lon
+      - env_broad_scale
+      - env_local_scale
+      - local_class
+      - local_class_meth
+      - link_class_info
+      - link_climate_info
+      - fao_class
+      - drainage_class
+      - alt
+      - depth
+      - elev
+      - temp
+      - annual_temp
+      - season_temp
+      - annual_precpt
+      - season_precpt
+      - extreme_event
+      - fire
+      - flooding
+      - cur_land_use
+      - cur_vegetation
+      - cur_vegetation_meth
+      - crop_rotation
+      - agrochem_addition
+      - prev_land_use_meth
+      - previous_land_use
+      - experimental_factor
+      - source_mat_id
+      - samp_name
+      - samp_alt_lab_ids
+      - permit_authority
+      - permit_id
+      - permit_date
+      - permit_scope
+      - biocultural_label
+      - earliest_chrono_age
+      - earliest_chrono_sys
+      - latest_chrono_age
+      - latest_chrono_sys
+      - chrono_age_protocol
+      - chrono_age_remarks
+      - geological_epoch
+      - cultural_era
+      - samp_taxon_id
+      - collection_date
+      - store_cond
+      - samp_preserv_treatm
+      - host_preserv_state
+      - palaeopath_status
+      - prev_pubs
+      - ref_biomaterial
+      - soil_type
+      - soil_type_meth
+      - soil_texture
+      - soil_texture_meth
+      - sieving
+      - water_content
+      - water_cont_soil_meth
+      - ph
+      - ph_meth
+      - org_matter
+      - tot_org_carb
+      - tot_org_c_meth
+      - tot_nitro_content
+      - tot_nitro_cont_meth
+      - org_nitro
+      - rel_to_oxygen
+      - heavy_metals
+      - heavy_metals_meth
+      - al_sat
+      - al_sat_meth
+      - microbial_biomass
+      - micro_biomass_meth
+      - link_addit_analys
+      - misc_param
+      - batch_ids
+      - samp_category
+      - neg_cont_type
+      - pos_cont_type
+      - env_medium
+      - samp_collect_method
+      - samp_collect_device
+      - samp_mat_process
+      - samp_size
+      - samp_decont_pretreat
+      - size_frac
+      - samp_vol_we_dna_ext
+      - pool_dna_extracts
+      - nucl_acid_extr_date
+      - nucl_acid_ext
+      - sop_experimental
+      - library_name
+      - damage_treatment
+      - lib_strandedness
+      - adapters
+      - mid
+      - lib_mid_desc
+      - lib_gener_technique
+      - lib_screen
+      - lib_vector
+      - lib_size
+      - lib_polymerase
+      - capt_probe_src_taxid
+      - capt_probe_desc
+      - capt_pcr_cyc_tot
+      - reamp_pcr_cyc_tot
+      - nucl_acid_amp
+      - seq_meth
+      - lib_layout
+      - lib_reads_seqd
+      - sop_lib_preparation
+      - data_preproc_desc
+      - reads_removed_desc
+      - assembly_name
+      - assembly_software
+      - assembly_qual
+      - number_contig
+      - tax_class
+      - annot
+      - feat_pred
+      - sim_search_meth
+      - ref_db
+      - sop
+    slot_usage:
+      project_name:
+        rank: 1
+        slot_subset: investigation
+      associated_resource:
+        rank: 2
+        slot_subset: sequencing
+      orig_site_name:
+        rank: 3
+        slot_subset: environment
+      orig_site_loc:
+        rank: 4
+        slot_subset: environment
+      orig_site_lat:
+        rank: 5
+        slot_subset: environment
+      orig_site_lon:
+        rank: 6
+        slot_subset: environment
+      past_env_broad:
+        rank: 7
+        slot_subset: environment
+      past_env_local:
+        rank: 8
+        slot_subset: environment
+      context_retrieval_date:
+        rank: 9
+        slot_subset: environment
+      stratigraph_context:
+        rank: 10
+        slot_subset: environment
+      soil_horizon:
+        rank: 11
+        slot_subset: environment
+      horizon_meth:
+        rank: 12
+        slot_subset: environment
+      tillage:
+        rank: 13
+        slot_subset: environment
+      profile_position:
+        rank: 14
+        slot_subset: environment
+      slope_aspect:
+        rank: 15
+        slot_subset: environment
+      slope_gradient:
+        rank: 16
+        slot_subset: environment
+      geo_loc_name:
+        rank: 17
+        slot_subset: environment
+      lat_lon:
+        rank: 18
+        slot_subset: environment
+      env_broad_scale:
+        rank: 19
+        slot_subset: environment
+      env_local_scale:
+        rank: 20
+        slot_subset: environment
+      local_class:
+        rank: 21
+        slot_subset: environment
+      local_class_meth:
+        rank: 22
+        slot_subset: environment
+      link_class_info:
+        rank: 23
+        slot_subset: environment
+      link_climate_info:
+        rank: 24
+        slot_subset: environment
+      fao_class:
+        rank: 25
+        slot_subset: environment
+      drainage_class:
+        rank: 26
+        slot_subset: environment
+      alt:
+        rank: 27
+        slot_subset: environment
+      depth:
+        rank: 28
+        slot_subset: environment
+      elev:
+        rank: 29
+        slot_subset: environment
+      temp:
+        rank: 30
+        slot_subset: environment
+      annual_temp:
+        rank: 31
+        slot_subset: environment
+      season_temp:
+        rank: 32
+        slot_subset: environment
+      annual_precpt:
+        rank: 33
+        slot_subset: environment
+      season_precpt:
+        rank: 34
+        slot_subset: environment
+      extreme_event:
+        rank: 35
+        slot_subset: environment
+      fire:
+        rank: 36
+        slot_subset: environment
+      flooding:
+        rank: 37
+        slot_subset: environment
+      cur_land_use:
+        rank: 38
+        slot_subset: environment
+      cur_vegetation:
+        rank: 39
+        slot_subset: environment
+      cur_vegetation_meth:
+        rank: 40
+        slot_subset: environment
+      crop_rotation:
+        rank: 41
+        slot_subset: environment
+      agrochem_addition:
+        rank: 42
+        slot_subset: environment
+      prev_land_use_meth:
+        rank: 43
+        slot_subset: environment
+      previous_land_use:
+        rank: 44
+        slot_subset: environment
+      experimental_factor:
+        rank: 45
+        slot_subset: investigation
+      source_mat_id:
+        rank: 46
+        slot_subset: nucleic acid sequence source
+      samp_name:
+        rank: 47
+        slot_subset: investigation
+      samp_alt_lab_ids:
+        rank: 48
+        slot_subset: nucleic acid sequence source
+      permit_authority:
+        rank: 49
+        slot_subset: nucleic acid sequence source
+      permit_id:
+        rank: 50
+        slot_subset: nucleic acid sequence source
+      permit_date:
+        rank: 51
+        slot_subset: nucleic acid sequence source
+      permit_scope:
+        rank: 52
+        slot_subset: nucleic acid sequence source
+      biocultural_label:
+        rank: 53
+        slot_subset: nucleic acid sequence source
+      earliest_chrono_age:
+        rank: 54
+        slot_subset: nucleic acid sequence source
+      earliest_chrono_sys:
+        rank: 55
+        slot_subset: nucleic acid sequence source
+      latest_chrono_age:
+        rank: 56
+        slot_subset: nucleic acid sequence source
+      latest_chrono_sys:
+        rank: 57
+        slot_subset: nucleic acid sequence source
+      chrono_age_protocol:
+        rank: 58
+        slot_subset: nucleic acid sequence source
+      chrono_age_remarks:
+        rank: 59
+        slot_subset: nucleic acid sequence source
+      geological_epoch:
+        rank: 60
+        slot_subset: nucleic acid sequence source
+      cultural_era:
+        rank: 61
+        slot_subset: nucleic acid sequence source
+      samp_taxon_id:
+        rank: 62
+        slot_subset: investigation
+      collection_date:
+        rank: 63
+        slot_subset: environment
+      store_cond:
+        rank: 64
+        slot_subset: nucleic acid sequence source
+      samp_preserv_treatm:
+        rank: 65
+        slot_subset: nucleic acid sequence source
+      host_preserv_state:
+        rank: 66
+        slot_subset: nucleic acid sequence source
+      palaeopath_status:
+        rank: 67
+        slot_subset: environment
+      prev_pubs:
+        rank: 68
+        slot_subset: nucleic acid sequence source
+      ref_biomaterial:
+        rank: 69
+        slot_subset: nucleic acid sequence source
+      soil_type:
+        rank: 70
+        slot_subset: environment
+      soil_type_meth:
+        rank: 71
+        slot_subset: environment
+      soil_texture:
+        rank: 72
+        slot_subset: environment
+      soil_texture_meth:
+        rank: 73
+        slot_subset: environment
+      sieving:
+        rank: 74
+        slot_subset: environment
+      water_content:
+        rank: 75
+        slot_subset: nucleic acid sequence source
+      water_cont_soil_meth:
+        rank: 76
+        slot_subset: nucleic acid sequence source
+      ph:
+        rank: 77
+        slot_subset: nucleic acid sequence source
+      ph_meth:
+        rank: 78
+        slot_subset: nucleic acid sequence source
+      org_matter:
+        rank: 79
+        slot_subset: nucleic acid sequence source
+      tot_org_carb:
+        rank: 80
+        slot_subset: nucleic acid sequence source
+      tot_org_c_meth:
+        rank: 81
+        slot_subset: nucleic acid sequence source
+      tot_nitro_content:
+        rank: 82
+        slot_subset: nucleic acid sequence source
+      tot_nitro_cont_meth:
+        rank: 83
+        slot_subset: nucleic acid sequence source
+      org_nitro:
+        rank: 84
+        slot_subset: nucleic acid sequence source
+      rel_to_oxygen:
+        rank: 85
+        slot_subset: nucleic acid sequence source
+      heavy_metals:
+        rank: 86
+        slot_subset: nucleic acid sequence source
+      heavy_metals_meth:
+        rank: 87
+        slot_subset: nucleic acid sequence source
+      al_sat:
+        rank: 88
+        slot_subset: nucleic acid sequence source
+      al_sat_meth:
+        rank: 89
+        slot_subset: nucleic acid sequence source
+      microbial_biomass:
+        rank: 90
+        slot_subset: nucleic acid sequence source
+      micro_biomass_meth:
+        rank: 91
+        slot_subset: nucleic acid sequence source
+      link_addit_analys:
+        rank: 92
+        slot_subset: nucleic acid sequence source
+      misc_param:
+        rank: 93
+        slot_subset: nucleic acid sequence source
+      batch_ids:
+        rank: 94
+        slot_subset: nucleic acid sequence source
+      samp_category:
+        rank: 95
+        slot_subset: nucleic acid sequence source
+      neg_cont_type:
+        rank: 96
+        slot_subset: investigation
+      pos_cont_type:
+        rank: 97
+        slot_subset: investigation
+      env_medium:
+        rank: 98
+        slot_subset: environment
+      samp_collect_method:
+        rank: 99
+        slot_subset: nucleic acid sequence source
+      samp_collect_device:
+        rank: 100
+        slot_subset: nucleic acid sequence source
+      samp_mat_process:
+        rank: 101
+        slot_subset: nucleic acid sequence source
+      samp_size:
+        rank: 102
+        slot_subset: nucleic acid sequence source
+      samp_decont_pretreat:
+        rank: 103
+        slot_subset: nucleic acid sequence source
+      size_frac:
+        rank: 104
+        slot_subset: nucleic acid sequence source
+      samp_vol_we_dna_ext:
+        rank: 105
+        slot_subset: nucleic acid sequence source
+      pool_dna_extracts:
+        rank: 106
+        slot_subset: nucleic acid sequence source
+      nucl_acid_extr_date:
+        rank: 107
+        slot_subset: nucleic acid sequence source
+      nucl_acid_ext:
+        rank: 108
+        slot_subset: sequencing
+      sop_experimental:
+        rank: 109
+        slot_subset: nucleic acid sequence source
+      library_name:
+        rank: 110
+        slot_subset: sequencing
+      damage_treatment:
+        rank: 111
+        slot_subset: sequencing
+      lib_strandedness:
+        rank: 112
+        slot_subset: sequencing
+      adapters:
+        rank: 113
+        slot_subset: sequencing
+      mid:
+        rank: 114
+        slot_subset: sequencing
+      lib_mid_desc:
+        rank: 115
+        slot_subset: sequencing
+      lib_gener_technique:
+        rank: 116
+        slot_subset: sequencing
+      lib_screen:
+        rank: 117
+        slot_subset: sequencing
+      lib_vector:
+        rank: 118
+        slot_subset: sequencing
+      lib_size:
+        rank: 119
+        slot_subset: sequencing
+      lib_polymerase:
+        rank: 120
+        slot_subset: sequencing
+      capt_probe_src_taxid:
+        rank: 121
+        slot_subset: sequencing
+      capt_probe_desc:
+        rank: 122
+        slot_subset: sequencing
+      capt_pcr_cyc_tot:
+        rank: 123
+        slot_subset: sequencing
+      reamp_pcr_cyc_tot:
+        rank: 124
+        slot_subset: sequencing
+      nucl_acid_amp:
+        rank: 125
+        slot_subset: sequencing
+      seq_meth:
+        rank: 126
+        slot_subset: sequencing
+      lib_layout:
+        rank: 127
+        slot_subset: sequencing
+      lib_reads_seqd:
+        rank: 128
+        slot_subset: sequencing
+      sop_lib_preparation:
+        rank: 129
+        slot_subset: sequencing
+      data_preproc_desc:
+        rank: 130
+        slot_subset: sequencing
+      reads_removed_desc:
+        rank: 131
+        slot_subset: sequencing
+      assembly_name:
+        rank: 132
+        slot_subset: sequencing
+      assembly_software:
+        rank: 133
+        slot_subset: sequencing
+      assembly_qual:
+        rank: 134
+        slot_subset: sequencing
+      number_contig:
+        rank: 135
+        slot_subset: sequencing
+      tax_class:
+        rank: 136
+        slot_subset: sequencing
+      annot:
+        rank: 137
+        slot_subset: sequencing
+      feat_pred:
+        rank: 138
+        slot_subset: sequencing
+      sim_search_meth:
+        rank: 139
+        slot_subset: sequencing
+      ref_db:
+        rank: 140
+        slot_subset: sequencing
+      sop:
+        rank: 141
+        slot_subset: sequencing

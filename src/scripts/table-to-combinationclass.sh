@@ -14,38 +14,49 @@
 
 table=$1
 
+echo "slots:" >minas-combination-slots.txt
+echo "classes:" >minas-combination-classes.txt
+echo "  MixsCompliantData:
+    description:
+      A collection of Data that comply with some combination of a MIxS
+      checklist and environmental extension
+    title: MIxS compliant data
+    slots:" >minas-combination-compliantdataslots.txt
+
 while read line; do
 
-  checklist=$(echo "$line" | cut -d, -f1)
-  checklist_uri=$(echo "$line" | cut -d, -f2)
-  extension=$(echo "$line" | cut -d, -f3)
-  extension_uri=$(echo "$line" | cut -d, -f4)
-  checklist_lower=$(echo $checklist | tr '[:upper:]' '[:lower:]')
-  extension_lower=$(echo $extension | tr '[:upper:]' '[:lower:]')
+    checklist=$(echo "$line" | cut -d, -f1)
+    checklist_uri=$(echo "$line" | cut -d, -f2)
+    extension=$(echo "$line" | cut -d, -f3)
+    extension_uri=$(echo "$line" | cut -d, -f4)
+    checklist_lower=$(echo $checklist | tr '[:upper:]' '[:lower:]')
+    extension_lower=$(echo $extension | tr '[:upper:]' '[:lower:]')
 
-  echo "SLOT #########################"
-  echo "${checklist_lower}_${extension_lower}_ancient_data:
-  description: Data that comply with Ancient combined with ${checklist}${extension}
-  title: ${checklist}${extension}Ancient Data
-  domain: MixsCompliantData
-  slot_uri: MIXS:${checklist_lower}_${extension_lower}_ancient_data
-  multivalued: true
-  range: ${checklist}${extension}Ancient
-  inlined: true
-  inlined_as_list: true" >>minas-combination-slots.txt
+    echo "SLOT #########################"
+    echo "  ${checklist_lower}_${extension_lower}_ancient_data:
+    description: Data that comply with Ancient combined with ${checklist}${extension}
+    title: ${checklist}${extension}Ancient Data
+    domain: MixsCompliantData
+    slot_uri: MIXS:${checklist_lower}_${extension_lower}_ancient_data
+    multivalued: true
+    range: ${checklist}${extension}Ancient
+    inlined: true
+    inlined_as_list: true" >>minas-combination-slots.txt
 
-  echo "CLASSES #########################"
-  echo "${checklist}${extension}Ancient:
-  description: MIxS Data that comply with the ${checklist} checklist, and ${extension} and Ancient extensions.
-  title: ${checklist}${extension} combined with Ancient
-  in_subset:
+    echo "CLASSES #########################"
+    echo "  ${checklist}${extension}Ancient:
+    description: MIxS Data that comply with the ${checklist} checklist, and ${extension} and Ancient extensions.
+    title: ${checklist}${extension} combined with Ancient
+    in_subset:
       - combination_classes
-  is_a: Ancient
-  mixins:
+    is_a: Ancient
+    mixins:
       - ${checklist}${extension}
-  class_uri: MIXS:${checklist_uri}_${extension_uri}_9999903" >>minas-combination-classes.txt
+    class_uri: MIXS:${checklist_uri}_${extension_uri}_9999903" >>minas-combination-classes.txt
 
-  echo "COMPLIANT_DATA_SLOTS #########################"
-  echo "- ${checklist_lower}_${extension_lower}_ancient_data" >>minas-combination-compliantdataslots.txt
+    echo "COMPLIANT_DATA_SLOTS #########################"
+    echo "      - ${checklist_lower}_${extension_lower}_ancient_data" >>minas-combination-compliantdataslots.txt
 
 done <<<"$(tail +2 $table)"
+
+echo "    tree_root: true" >>minas-combination-compliantdataslots.txt
