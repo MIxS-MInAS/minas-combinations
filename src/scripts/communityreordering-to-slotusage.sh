@@ -19,8 +19,8 @@ while read line; do
 
   slot_name=$(echo "$line" | cut -d, -f7)
   slot_rank=$(echo "$line" | cut -d, -f6)
-  slot_group=$(echo "$line" | cut -d, -f4)
-
+  slot_group=$(echo "$line" | cut -d, -f4) ## Using MInAS categories here because DataHarmonizer seems to group firstly by the order in which it receives the slot-groups
+  echo $slot_group
   echo "## PROCESSING $slot_name"
 
   ## Slots list
@@ -35,5 +35,7 @@ while read line; do
 done <<<"$(tail +2 $table)"
 
 cat temp.slots temp.slotusage >"${table%.csv}-slotscombined.yaml"
+
+sed -i 's/Sample body/Environment/g' "${table%.csv}-slotscombined.yaml"
 
 rm temp*

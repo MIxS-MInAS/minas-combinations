@@ -56,5 +56,5 @@ Example document: https://docs.google.com/spreadsheets/d/14vXu2dN0tHJivnlgCNAlJf
 4. Delete the old file and rename the new one:
 
    ```bash
-   mv src/mixs/schema/minas-combinations_new.yaml src/mixs/schema/minas-combinations.yaml
+   mv src/mixs/schema/minas-combinations_new.yaml src/mixs/schema/minas-combinations.yml
    ```
