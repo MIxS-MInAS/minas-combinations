@@ -47,7 +47,7 @@ Example document: https://docs.google.com/spreadsheets/d/14vXu2dN0tHJivnlgCNAlJf
 1. To get the basic template of the final combinations file from the root of the repository
 
    ```bash
-   minas_comb_ver="0.3"
+   minas_comb_ver="0.3" ## UPDATE EACH TIME!
    cat assets/combination-tsvs/v"$minas_comb_ver"/minas-combination-slots.txt assets/combination-tsvs/v"$minas_comb_ver"/minas-combination-classes.txt assets/combination-tsvs/v"$minas_comb_ver"/minas-combination-compliantdataslots.txt > src/mixs/schema/minas-combinations_new.yaml
    ```
 
