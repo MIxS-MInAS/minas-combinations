@@ -80,7 +80,7 @@ classes:
     is_a: Ancient
     mixins:
       - MimsHostAssociated
-    class_uri: MIXS:10007_16002_9999903
+    class_uri: MIXS:10007_16002_0016024
     slots:
       - project_name
       - associated_resource
@@ -627,7 +627,7 @@ classes:
     is_a: Ancient
     mixins:
       - MimsHumanAssociated
-    class_uri: MIXS:10007_16003_9999903
+    class_uri: MIXS:10007_16003_0016024
     slots:
       - project_name
       - associated_resource
@@ -1198,7 +1198,7 @@ classes:
     is_a: Ancient
     mixins:
       - MimsHumanOral
-    class_uri: MIXS:10007_16005_9999903
+    class_uri: MIXS:10007_16005_0016024
     slots:
       - project_name
       - associated_resource
@@ -1701,7 +1701,7 @@ classes:
     is_a: Ancient
     mixins:
       - MimsHumanGut
-    class_uri: MIXS:10007_16004_9999903
+    class_uri: MIXS:10007_16004_0016024
     slots:
       - project_name
       - associated_resource
@@ -2208,7 +2208,7 @@ classes:
     is_a: Ancient
     mixins:
       - MimsHumanSkin
-    class_uri: MIXS:10007_16006_9999903
+    class_uri: MIXS:10007_16006_0016024
     slots:
       - project_name
       - associated_resource
@@ -2715,7 +2715,7 @@ classes:
     is_a: Ancient
     mixins:
       - MimsSediment
-    class_uri: MIXS:10007_16011_9999903
+    class_uri: MIXS:10007_16011_0016024
     slots:
       - project_name
       - associated_resource
@@ -3346,7 +3346,7 @@ classes:
     is_a: Ancient
     mixins:
       - MimsSoil
-    class_uri: MIXS:10007_16012_9999903
+    class_uri: MIXS:10007_16012_0016024
     slots:
       - project_name
       - associated_resource
@@ -3921,7 +3921,7 @@ classes:
     is_a: Ancient
     mixins:
       - MimsPlantAssociated
-    class_uri: MIXS:10007_16010_9999903
+    class_uri: MIXS:10007_16010_0016024
     slots:
       - project_name
       - associated_resource

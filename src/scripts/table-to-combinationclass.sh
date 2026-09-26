@@ -52,7 +52,7 @@ while read line; do
     is_a: Ancient
     mixins:
       - ${checklist}${extension}
-    class_uri: MIXS:${checklist_uri}_${extension_uri}_9999903" >>minas-combination-classes.txt
+    class_uri: MIXS:${checklist_uri}_${extension_uri}_0016024" >>minas-combination-classes.txt
 
     echo "COMPLIANT_DATA_SLOTS #########################"
     echo "      - ${checklist_lower}_${extension_lower}_ancient_data" >>minas-combination-compliantdataslots.txt
